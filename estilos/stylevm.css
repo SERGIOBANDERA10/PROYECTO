@@ -1,0 +1,112 @@
+body{
+   text-align: center;
+   font-family: Arial, Helvetica, sans-serif;
+   margin: 0;
+   
+}
+
+.modal{
+   width: 100%;
+   height: 100vmax;
+   background: rgba(0, 0, 0,.8);
+   position: fixed;
+   top:0;
+   left: 0;
+   display: flex;
+   position:fixed; z-index:3;
+   animation: modal 1s 1s;
+    animation-fill-mode: forwards;
+   visibility: hidden;
+   opacity:0; 
+}
+
+
+.notificacion{
+position: relative;
+top: 12%;
+left: 1.8%;
+padding: 3%;
+color: black;
+
+}
+#bottom1{
+position: relative;
+left: 30%;
+height: 45px;
+width: 40%;
+background-color: green;
+box-shadow: -1px 2px 7px 0px rgb(0,0,0,0.75);
+color: white;
+font-size: 25px;
+
+   }
+
+#bottom2{
+   position: relative;
+   left: 30%;
+   height: 45px;
+   width: 40%;
+   background-color: rgb(173, 6, 6);
+   box-shadow: -1px 2px 7px 0px rgb(0,0,0,0.75);
+   color: white;
+   font-size: 25px;
+}
+
+h3{
+   position: relative;
+   top: 4px;
+}
+
+.contenidoalert{
+   position: fixed;
+   left: 35.5%;
+   margin: auto;
+   bottom: 38px;
+   width: 30%;
+   height:40% ;
+   background: white;
+   border-radius: 10px;
+   bottom: 33.5%;
+
+}
+
+#cerrar{
+display: none;
+}
+
+#cerrar + label{
+   
+   top: 16%;
+   left:63%;
+   position:fixed;
+   color:#fff;
+   font-size: 25px;
+   text-align: center;
+   position:fixed; z-index:4;
+   background: darkred;
+   height: 40px;
+   width: 40px;
+   border-radius:100%;
+   bottom: 10px;
+   top: 27%;
+   left: 63.5%;
+   cursor: pointer;
+   animation: modal 1s 1s;
+   animation-fill-mode: forwards;
+  visibility: hidden;
+  opacity:0; 
+
+}
+
+#cerrar:checked + label, #cerrar:checked ~ .modal{
+display: none;
+}
+
+
+@keyframes modal {
+   100%{
+      visibility: visible;
+      opacity:1 ;
+   }
+}
+

@@ -1,0 +1,151 @@
+*{
+margin: 0;
+padding: 0;
+
+}
+
+img{
+   position: absolute;
+  width: 100%;
+  height: 52.7vmax;
+
+}
+
+.logo{
+   position: relative;
+   top:120px;
+   width: 30%;
+   height: 20%;
+   top: 60px;
+   left: 15px;
+
+}
+.container{
+background-color: rgb(21, 133, 185);
+box-shadow: 20px 20px rgba(4, 7, 209, 0.2);
+position: relative;
+width: 23%;
+height: 50%;
+border:2px solid white;
+top: 25%;
+left: 39%;
+position:absolute; z-index:2;
+font-size: 250%;
+text-align: center;
+font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
+
+header{
+   position: relative;
+   font-family: 'Marcellus', serif;
+   color: white;
+   padding: 10px;
+   background-color: #000000;
+   height: 60px;
+   text-align: left;
+   font-size: 60%;
+   
+   }
+
+.signin{
+   width: 30%;
+   height: 40px;
+   top: 10%;
+   
+   }
+
+   input{
+      font-size: 30px;
+
+   }
+
+   .ingreso{
+      position: relative;
+      top:2px;
+      width: 10%;
+      height: 30px;
+      float: right;
+      left: 3%;
+      padding: 1px;
+      margin: 0;
+      color: white;
+      font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+     
+      text-decoration: none;
+      
+   }
+
+   h4{
+   position: relative;
+   top: 10px;
+   font-size: 310%;
+
+   }
+
+   #bottom6{
+      position: relative;
+      left: 1.5%;
+      top: 20px;
+      background-color: green;
+      box-shadow: -1px 2px 7px 0px rgb(0,0,0,0.75);
+      color: white;
+      font-size: 25px;
+      padding: 10px;
+      text-decoration: none;
+      margin: 1px solid black;
+      z-index: 3;
+      
+      }
+
+   .registro{
+      position: relative;
+      top:2px;
+      width: 8%;
+      height: 30px;
+      float: right;
+      left: 3%;
+      margin: 0;
+      color: white;
+      font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+      
+     text-decoration: none;
+   }
+      
+   #logo{
+      position: relative;
+      top: 20%;
+      
+   }
+   
+.register{
+position: relative;
+top: 25px;
+color: white;
+width: 30%;
+height: 40px;
+background-color: green;
+
+}
+
+.email{
+   
+   width: 80%;
+   height: 40px;
+   
+}
+h2{
+   padding: 3%;
+}
+.pwd{
+   
+   width: 80%;
+   height: 40px;
+
+}
+
+.link{
+text-decoration: none;
+
+}
+
