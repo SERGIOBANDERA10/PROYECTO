@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AT Confirmación Empleado</title>
+    <link rel="stylesheet" href="confirEm.css">
+
+</head>
+<body>
+    <div  class="grid-container">
+        <header class="header">
+            <h1>Confirmación Empleado</h1>
+            <p class="logOut">
+                <a href="#">
+                    <button class="bottom">Cerrar Sesión</button>
+                </a>
+            </p>
+        </header>
+    <div id="perfil">
+        <p class="fotoDestino">
+            <label class="imgDestino" for="text">Agrege una imagen del Destino</label><br>
+            <img src="lg/LG-ALLT-.png" alt> <br>
+            <label class="Destino" for="edit">Ingrese Destino</label><br>
+            <input type="text" id="edit" name="edit" size="30" placeholder="Ingrese destino
+            "><br>
+            <label class="infoDestino" for="text" name="text">Ingrese una descripción del Destino</label><br>
+            <textarea name="infoDestino" id="infoDestino" cols="30" rows="10" placeholder="Ingrese una descipción"></textarea>
+        </p>
+        <div class="precio">
+            <label class="precio" for="num" name="num">Ingrese el valor del servicio</label><br>
+            <input type="number" id="num" name="num"placeholder="$000.0000.00" size="30">
+        </div>
+        <p class="pasajero">
+            <label for="">Selecione la clase</label><br>
+            <select name="" id="">
+                <optgroup label="clase">
+                    <option value="">Familiar</option>
+                    <option value="">Ejecutiva</option>
+                    <option value="">General</option>
+                </optgroup>
+            </select><br>
+            <label class="travel" for="num" name="num">Ingrese la cantidad de pasajeros</label><br>
+            <input type="number" id="travel" name="travel" min="1" max="10" size="30" step="1" placeholder="0">
+        </p>
+        <a href="">
+            <label class="crear servi" for="crear servi"></label><br>
+            <input type="button" id="crear" name="crear" value="Subir al sistema">
+        </a>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AT Subir servicio</title>
+    <link rel="stylesheet" href="cargarUp.css">
+
+</head>
+<body class="grid-container">
+    <div id="perfil">
+        <header class="logo">
+            <h1>Subir servicio</h1>
+            <nav class="logOut">
+                <label class="logOut" for="button" name="button"></label>
+                <input type="submit" value="Cerrar Sesion">
+            </nav>
+        </header>
+        <div class="inf">
+            <p>
+                <form action="../../form-result.php" method="post" enctype="multipart/form-data" target="_blank"><br>
+                    <p>
+                      Sube un archivo:
+                      <input type="file" name="archivosubido">
+                    </p>              
+                  </form>
+                <img src="lg/LG-ALLT-.png" alt=""><br>
+                <label class="Destino" for="edit">Ingrese Destino</label><br>
+                <input type="text" id="edit" name="edit" size="30" placeholder="Destino"><br>
+                <label class="infoDestino" for="text" name="text">Ingrese una descripción del Destino</label><br>
+                <textarea name="infoDestino" id="infoDestino" cols="30" rows="10" placeholder="Descrión del destino"></textarea>
+            </p>
+            <div class="precio">
+                <label class="precio" for="num" name="num">Ingrese el valor del servicio</label><br>
+                <input type="number" size="30" placeholder="$000.000.00">
+            </div>
+            <p class="pasajero">
+                <label for="">Selecione la clase</label><br>
+                <select name="" id="" >
+                    <optgroup label="clase">
+                        <option value="">Familiar</option>
+                        <option value="">Ejecutiva</option>
+                        <option value="">General</option>
+                    </optgroup>
+                </select><br>
+                <label class="travel" for="num" name="num">Ingrese la cantidad de pasajeros</label><br>
+                <input type="number" id="travel" name="travel" min="1" max="10" size="150" step="1" placeholder="0">
+            </p>
+            <aside class="button">
+                <a href="cargar-servi.html">
+                    <label class="gestion" for="gestion"></label>
+                    <input type="submit" id="gestion" name="gestion" value="Subir al sistema">
+                </a>
+            </aside>
+        </div>
+    </div>
+</body>
+</html>

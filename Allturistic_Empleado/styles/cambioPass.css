@@ -1,0 +1,41 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    background: url(img/playafondo.jpg);  
+}
+.grid-container{
+    display: grid;
+    font-size: 20px;
+    grid-template-areas:
+    "header header header"
+    "aside aside section"
+    "footer footer footer";
+}
+.header{
+    line-height: 100px;
+    background: rgba(255, 255, 255, 0.035);
+    color: rgba(0, 0, 0, 0.453);
+    border: 1px solid rgba(204, 204, 204, 0.166);
+    text-align: center;
+    grid-area: header;
+}
+.inf{
+    line-height: 33px;
+    font-size: 20px;
+    margin: 50px;
+    padding: 50px;
+    width: auto;
+    height: auto;
+    text-align: center;
+    background: rgba(255, 255, 255, 0.549);
+    border: 1px solid #ccc;
+    box-shadow: 5px 5px 5px 5px rgba(68, 68, 68, 0.2);
+
+}
+.user img{
+    border: 1px solid #ccc;
+    width: 150px;
+}

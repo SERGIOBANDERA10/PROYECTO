@@ -1,0 +1,107 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    background: url(img/playafondo.jpg);  
+}
+#grid-container{
+    display: grid;
+    font-size: 20px;
+}
+#user{
+    line-height: 50px;
+    display: grid;
+    grid-template-areas: "a b c";
+    grid-template-columns: 1fr 1fr 1fr;
+}
+#user header{
+    color: rgba(0, 0, 0, 0.589);
+    grid-area: 1 / 2;
+    line-height: 100px;
+    margin: 2%;
+    padding: 2%;
+}
+#submit{
+    grid-area: 1 / 3;
+    color: #fff;
+    font-size: large;
+    width: 150px;
+    height: 60px;
+    margin: auto;
+    margin-right: 15%;
+    padding: auto;
+    background-color: red;
+    border-radius: 120deg;
+    -webkit-border-radius: 120deg;
+    -moz-border-radius: 120deg;
+    -ms-border-radius: 120deg;
+    -o-border-radius: 120deg;
+}
+.perfil{
+    display: grid;
+    grid-template-areas: "h h h h"
+    "a a c d"
+    "a a c d"
+    "f f f f";
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    line-height: 25px;
+    font-size: 18px;
+    margin: 55px;
+    padding: 25px;
+    font-size: large;
+    width: auto;
+    height: 500px;
+    background: rgba(255, 255, 255, 0.549);
+    border: 0px;
+    box-shadow: 5px 5px 5px 5px rgba(68, 68, 68, 0.2);
+}
+.fotoPerfil{
+    grid-area: h 1 / 3 / 4;
+    font-size: medium;
+    text-align: center;
+}
+.fotoPerfil .editarP{
+    color: #fff;
+    font-size: large;
+    width: 100px;
+    height: 50px;
+    margin: auto;
+    padding: auto;
+    background: green;
+}
+.perfil img{
+    width: 65%;
+    border: 1px solid #ccc;
+}
+#info{
+    grid-area: a 2 / 1 / 3;
+      
+}
+.option1{
+    grid-area: a 1 / 1 / 2;
+    color: #fff;
+    font-size: medium;
+    width: 200px;
+    height: 60px;
+    margin: 15px;
+    padding: 15px;;
+}
+.option2{
+    grid-area: a 3 / 2 / 1 ;
+    color: #fff;
+    font-size: medium;
+    width: 200px;
+    height: 60px;
+    margin: 15px;
+    padding: 15px;
+    background: green;
+}
+.footer{
+    display: grid;
+    width: auto;
+    height: auto;
+    margin: 20px;
+    padding: 25px;
+}

@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AT crear Servicios Emp</title>
+    <link rel="stylesheet" href="styles/crearServ.css">
+
+</head>
+<body class="grid-container">
+    <div id="perfil">
+        <header>
+            <h1>Crear servicio</h1>
+        
+            <div class="image">
+                <img src="lg/LG-ALLT-.png" alt><br>
+                <p>Sube la imagen del destino</p>
+            </div>
+            <div class="destino">
+                <form action="../../form-result.php" method="post" enctype="multipart/form-data" target="_blank"><br>
+                      <input type="file" name="archivosubido">
+                  </form>
+                <label class="Destino" for="edit">Ingrese Destino</label><br>
+                <input type="text" id="edit" name="edit" placeholder="Ingrese Destino" size="30"><br>
+            </div>
+            <div class="infoD">
+                <label class="infoDestino" for="text" name="text">Ingrese una descripción del Destino</label><br>
+                <textarea name="infoDestino" id="infoDestino" cols="30" rows="10" placeholder="Ingrese descripción"></textarea>
+            </div>
+            <div class="precio">
+                <label class="precio" for="num" name="num">Ingrese el valor del servicio</label><br>
+                <input type="number">
+            </div>
+        </header>
+        <div class="pasajero">
+            <label for="">Selecione la clase</label><br>
+            <select name="clase" id="clase">
+                <optgroup label="clase">
+                    <option value="">Familiar</option>
+                    <option value="">Ejecutiva</option>
+                    <option value="">General</option>
+                </optgroup>
+            </select><br>
+
+            <label class="travel" for="num" name="num">Cantidad de pasajeros</label><br>
+            <input type="number" id="travel" value="0" name="travel" min="1" max="10" size="50" step="1">
+        </div>
+        <div class="crear">
+            <a href="cargar-servi.html">
+                <label class="gestion" for="gestion"></label>
+                <input type="button" id="gestion" name="gestion" value="Crear servicio">
+            </a>
+        </div>
+    </div>
+</body>
+</html>

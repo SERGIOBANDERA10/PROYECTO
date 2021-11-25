@@ -1,0 +1,47 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    background: url(img/chair-and-table-dinning-on-the-beach-and-sea-with-blue-sky.jpg);  
+}
+.grid-container{
+    display: grid;
+    font-size: 20px;
+    grid-template-areas:
+    "header header header"
+    "menu menu menu"
+    "main main main"
+    "footer footer footer";
+}
+.logo{
+    margin: 15px;
+    padding: 5px;
+    text-align: center;
+    grid-area: header;
+}
+.logOut{
+    text-align:right;
+}
+.inf{
+    line-height: 25px;
+    font-size: 20px;
+    margin: 60px;
+    padding: 60px;
+    width: auto;
+    height: auto;
+    text-align: center;
+    background: rgba(255, 255, 255, 0.549);
+    border: 1px solid #ccc;
+    place-items: center;
+    box-shadow: 5px 5px 5px 5px rgba(68, 68, 68, 0.2);
+}
+.inf img{
+    float: left;
+    width: 65%;
+    border: 1px solid #ccc;
+}
+.imgDestino{
+    text-align: left;
+}
