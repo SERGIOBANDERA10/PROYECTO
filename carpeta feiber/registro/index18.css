@@ -1,0 +1,79 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: url(../PROYECTO/img/unica.webp);
+    background-size: 100%;
+    background-attachment: fixed;
+    display: flex;
+    flex-direction: column;
+}
+header{
+    width: 100%;
+    background: black;
+    height: 3em;
+}
+section{
+    width: 40%;
+    height: 40sem;
+    border: 1px solid black;
+    margin-left: 30%;
+    background: rgba(6, 144, 207, 0.288);
+    margin-bottom: 15%;
+    box-shadow: 4px 4px 4px white;
+}
+section li{
+    margin-left: 34%;
+    margin-bottom: 5%;
+    list-style: none;
+}
+h1{
+    text-align: center;
+    margin-top: 4%;
+    margin-bottom: 3%;
+}
+#bottom5{
+    margin-left: 40%;
+    position: relative;
+    left: 1.5%;
+    margin-top: 1%;
+    margin-bottom: 3%;
+    background-color: green;
+    box-shadow: -1px 2px 7px 0px rgb(0,0,0,0.75);
+    color: white;
+    font-size: 25px;
+    padding: 10px;
+    text-decoration: none;
+    margin: 1px solid black;
+    
+}
+h2{
+    width: 30%;
+    text-align: center;
+    margin-bottom: 10%;
+    margin-left: 35%;
+    border: 1px solid black;
+    background: green;
+    color: white;
+}
+input{
+    background: #ffffff;
+}
+button{
+    margin-left: 46%;
+    margin-bottom: 8%;
+    box-shadow: 3px 3px 3px rgb(173, 99, 241) ;
+}
+label{
+    font-size: 25px;
+}
+button:hover{
+    background-color: blue;
+    color: white;
+}
+a{
+    margin-top: 1%;
+    color: white;
+    font-size: 30px;
+}

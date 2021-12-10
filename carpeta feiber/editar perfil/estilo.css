@@ -1,0 +1,22 @@
+* {
+	padding: 0;
+	margin: 100px;
+	font-family: century gothic;
+	color: #444
+}
+
+h1 {
+	padding: 12px;
+}
+
+div {
+    padding: 10px 20px;
+}
+form{
+	margin-left: 200px;
+	margin-top: 50px;
+}
+h1{
+	margin-left: 200px;
+	margin-top: 100px;
+}
